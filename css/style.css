@@ -36,7 +36,7 @@ nav ul li a{
     margin:30px;
     font-family: Open Sans, serif;
     color:#505050;
-    font-size:15px;
+    font-size:20px;
     font-weight:700;
 }
 .logo{
@@ -48,26 +48,26 @@ nav ul li a{
     font-weight:bold;
     color:#2d2a2a;
 }
-.text-containter p:nth-child(1){
+.text-container p:nth-child(1){
     font-family: Calibri, serif;
     font-weight: bold;
     color:#6d6d6d;
     font-size:22px;
 }
-.text-containter p:nth-child(2){
+.text-container p:nth-child(2){
     font-family: Calibri, serif;
     font-weight: bold;
     letter-spacing:1px;
     color:#1a1a1a;
     font-size:60px;
 }
-.text-containter p:nth-child(3){
+.text-container p:nth-child(3){
     font-family: Open Sans, serif;
     color:#403e3e;
     font-size:30px;
     line-height:30px;
 }
-.text-containter p{
+.text-container p{
     line-height:0px;
     margin:45px 0px 25px;
 }
@@ -86,4 +86,71 @@ nav ul li a{
     font-size:14px;
     outline:none;
     margin:0px 10px;
+}
+.hire-btn{
+    border:2px solid #373636;
+    color:#373636;
+}
+.down-cv{
+    background-color:#0b0b0b;
+    color:#ffffff;
+    border:none;
+}
+button:active{
+    transform:scale(1.1);
+}
+.model{
+    height:560px;
+    position: absolute;
+    bottom:40px;
+    left:70%;
+    transform:translateX(-70%);
+}
+.about-container{
+    width:80%;
+    height:330px;
+    background-color:#ffffff;
+    border-radius:20px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    display:flex;
+    margin:-7% auto 20px auto;
+    position:relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-container img{
+    height:250px;
+}
+.about-text{
+    width:550px;
+}
+.about-text p:nth-child(1){
+    color:#403e3e;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-size:23px;
+    line-height:0px;
+}
+.about-text p:nth-child(2){
+    color:#3e3d3d;
+    font-size:13px;
+    font-family: Calibri, serif;
+    font-weight:bold;
+    line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4){
+    color:#7e7d7d;
+    font-family: Open Sans, serif;
+    font-size:16px;
+}
+.about-text button{
+    width:120px;
+    height:40px;
+    color:#ffffff;;
+    outline:none;
+    border:none;
+    font-family:Open Sans, serif;
+    background-color:#262525;
+
 }
