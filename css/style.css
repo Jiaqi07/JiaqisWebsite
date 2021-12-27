@@ -87,7 +87,7 @@ nav ul li a{
     outline:none;
     margin:0px 10px;
 }
-.hire-btn{
+.read-more{
     border:2px solid #373636;
     color:#373636;
 }
@@ -152,5 +152,204 @@ button:active{
     border:none;
     font-family:Open Sans, serif;
     background-color:#262525;
+}
+.services{
+    height:600px;
+    background-color:#ffffff;
+    padding:2% 10% 0px 10%;
+}
+.services-text p:nth-child(1){
+    font-family:Open Sans, serif;
+    font-weight:bold;
+    color:#3e3d3d;
+    font-size:30px;
+    line-height:0px;
+}
+.services-text p:nth-child(2){
+    font-family:Open Sans, serif;
+    font-weight:bold;
+    color:#3e3d3d;
+    font-size:15px;
+    line-height:5px;
+}
+.services-text p:nth-child(3){
+    font-family:Open Sans, serif;
+    color:#7e7d7d;
 
+}
+.services-text{
+    width: 500px;
+    margin:50px 0px;
+}
+.box-1,.box-2,.box-3{
+    width:300px;
+    height:320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.3);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-container{
+    display:flex;
+    justify-content: space-between;
+ }
+.box-1{
+    background-image: url("../Pictures/basketball.jpeg")
+}
+.box-2{
+    background-image: url("../Pictures/Coding.jpeg")
+}
+.box-3{
+    background-image: url("../Pictures/CAD.jpg")
+}
+.box-1 span,
+.box-2 span,
+.box-3 span{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Open Sans, serif;
+    font-weight:bold;
+}
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2){
+    color:#ffffff;
+    font-family:Open Sans, serif;
+    font-size:23px;
+    line-height: 0px;
+}
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3){
+    font-family:Open Sans, serif;
+    text-align: center;
+    width:230px;
+    margin:0px 0px 20px 0px;
+    color:#f6f5f5;
+}
+.box-1 button,
+.box-2 button,
+.box-3 button{
+    width:100px;
+    height:30px;
+    background-color:#ffffff;
+    border:none;
+    outline:none;
+    border-radius:5px;
+}
+.contact-me{
+    width:100%;
+    height:280px;
+    background-image:url("../Pictures/Bar.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.contact-me p{
+    color:#ffffff;
+    font-size:30px;
+    font-family:Open Sans, serif;
+    font-weight:bold;
+    border-bottom:2px solid #ffffff;
+}
+.contact-me button{
+    width:200px;
+    height:40px;
+    background-color:#ffffff;
+    outline:none;
+    border:none;
+    font-size:14px;
+    font-weight: bold;
+}
+footer{
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+footer p{
+    font-family:Open Sans, serif;
+}
+footer p:nth-child(1){
+    font-size:30px;
+    font-weight:bold;
+    color:#191919;
+    line-height:10px;
+}
+footer p:nth-child(2){
+    font-size:16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align:center;
+}
+.social-icons a{
+    width:40px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+.social-icons{
+    display:flex;
+}
+.copyright{
+    color:#565555;
+    font-size:13px;
+    position: absolute;
+    left:50%;
+    bottom: 10px;
+    transform:translateX(-50%);
+}
+.social-icons i{
+    color:#000000;
+}
+.social-icons a:hover,
+.a-social-b a:hover{
+    background-color: #000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i,
+.a-social-b a:hover i{
+    color:#ffffff;
+    transition: all ease 0.5s;
+}
+.a-social-b{
+    position:fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+.a-social-b a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    padding:0px;
+    margin:0px;
+    line-height:0px;
+    background-color:#ffffff;
+    border:1px solid #cbcbcb;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.a-social-b i{
+    color:#2b2b2b;
+    font-size:20px;
 }
