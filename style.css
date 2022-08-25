@@ -5,6 +5,14 @@ body{
     margin:0px;
     padding:0px;
 }
+
+.contacts{
+    margin:0px;
+    padding:0px;
+    background-image: url("stolenBackground1Lol.jpg");
+    background-size: contain;
+}
+
 /*Credit to B Coder - https://www.youtube.com/watch?v=nWXm7Y7Q_Pk&ab_channel=BCoder*/
 .snow,
 .snow:before,
@@ -64,7 +72,7 @@ body{
             radial-gradient(5px 5px at 493px 267px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),
             radial-gradient(3px 3px at 86px 101px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),
             radial-gradient(5px 5px at 275px 9px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0));
-    background-size: 600px 600px;
+    background-size: 700px 600px;
     animation: snow 3s linear infinite;
     content: "";
 }
@@ -148,8 +156,10 @@ section{
     background-color:#0B0C10;
 }
 .some-socials{
+    background-image: url('snowEnd.jpg');
+    background-size: 140%;
     background-color: #1f2833;
-    heigh:120vh;
+    height:120vh;
 }
 .logo{
     padding-left:90px;
@@ -165,6 +175,9 @@ nav{
     background-color:#0B0C10;
     box-shadow:2px 2px 12px rgb(69, 162, 158);
     padding:0px 5%;
+}
+.red{
+    box-shadow:2px 2px 12px rgb(130, 30, 30);
 }
 nav ul{
     display:flex;
@@ -234,20 +247,19 @@ button:active{
 }
 .discord-status{
      position:absolute;
-     transform:translate(25%, 10%);
+     transform:translate(22%, 10%);
  }
 .github-rank{
     position:absolute;
-    transform:translate(24%, 70%);
+    transform:translate(21%, 70%);
 }
 .youtube-channels{
     position:absolute;
-    right:20%;
-    transform:translate(-30%, 10%);
+    padding-left:60%;
 }
 .google-calendar{
     position:absolute;
-    transform:translate(25%, 115%);
+    transform:translate(22%, 112%);
 }
 .about-container{
     width:80%;
@@ -262,27 +274,28 @@ button:active{
     align-items: center;
 }
 .about-container img{
-    height:250px;
+    height:255px;
 }
 .about-text{
     width:550px;
 }
 .about-text p:nth-child(1){
-    color:#403e3e;
+    color:#C5C6C7;
     font-family: Calibri, serif;
     font-weight: bold;
     font-size:23px;
     line-height:0px;
 }
 .about-text p:nth-child(2){
-    color:#3e3d3d;
+    color:#C5C6C7;
     font-size:13px;
     font-family: Calibri, serif;
     font-weight:bold;
     line-height: 5px;
 }
 .about-text p:nth-child(3),
-.about-text p:nth-child(4){
+.about-text p:nth-child(4),
+.about-text p:nth-child(5){
     color:#7e7d7d;
     font-family: Open Sans, serif;
     font-size:16px;
@@ -295,6 +308,21 @@ button:active{
     border:none;
     font-family:Open Sans, serif;
     background-color:#262525;
+}
+.contacts-container{
+    width:80%;
+    height:330px;
+    background-color:#1F2833;
+    border-radius:20px;
+    box-shadow:2px 2px 12px rgb(130, 30, 30);
+    display:flex;
+    margin:-7% auto 20px auto;
+    position:relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contacts-container img{
+    height:400px;
 }
 .services{
     height:600px;
@@ -340,13 +368,13 @@ button:active{
     justify-content: space-between;
  }
 .box-1{
-    background-image: url("../Pictures/basketball.jpeg")
+    background-image: url("basketball.jpeg")
 }
 .box-2{
-    background-image: url("../Pictures/Coding.jpeg")
+    background-image: url("Coding.jpeg")
 }
 .box-3{
-    background-image: url("../Pictures/CAD.jpg")
+    background-image: url("CAD.jpg")
 }
 .box-1 span,
 .box-2 span,
@@ -391,7 +419,7 @@ button:active{
 .contact-me{
     width:100%;
     height:280px;
-    background-image:url("../Pictures/Bar.jpg");
+    background-image:url("Bar.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     display:flex;

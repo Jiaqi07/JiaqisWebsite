@@ -3,9 +3,18 @@
 <head>
     <meta charset="utf-8">
     <title>Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="all.min.css"/>
 </head>
+
+<audio autoplay id="lofi">
+    <source src="kimi%20no%20nawa%20ost-date%20lofi%20ver..mp3" type="audio/mp3">
+</audio>
+
+<script>
+    var audio = document.getElementById("lofi")
+    audio.volume = 0.2;
+</script>
 
 <body>
     <div class = "snow"></div>
@@ -13,7 +22,7 @@
     <!--navigation--------------------------->
         <nav>
         <!--logo-->
-        <a class="logo"><img height="180px" src="../Pictures/Alan's Website-logos_white.png"/></a>
+        <a class="logo"><img height="180px" src="Alan's Website-logos_white.png"/></a>
         <!--menu-->
         <ul>
             <li><a href="index.html" class="menu">Home</a></li>
@@ -42,7 +51,7 @@
             <button class="down-cv">Download CV</button>
         </div>
 
-        <a class="penguin"><img height="780px" src="../Pictures/penguin.png"/></a>
+        <a class="penguin"><img height="780px" src="penguin.png"/></a>
     </section>
 
     <!--DISCORD STATUS+GITHUB ACHIEVEMENT+CALENDAR+POSSIBLE REPOSITORIES+MAYBE YOUTUBE-->
@@ -65,10 +74,12 @@
             <h2 style="color:#45A29E">My Youtube Channels<br><br>
                 <script src="https://apis.google.com/js/platform.js"></script>
                 <div class="g-ytsubscribe" data-channelid="UCsmiBrG791EH5YBv6Ft7GMQ" data-layout="full" data-theme="dark" data-count="default"></div>
-                <br><br><br><br><br><br><br>
                 <script src="https://apis.google.com/js/platform.js"></script>
                 <div class="g-ytsubscribe" data-channelid="UCAkvC6ZuRLc_E5gOQnz5rGQ" data-layout="full" data-theme="dark" data-count="default"></div>
-
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <div class="g-ytsubscribe" data-channelid="UCUIxCRYOfGqGk7PTdDfnSvA" data-layout="full" data-theme="dark" data-count="default"></div><br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X_kOIwsUrUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/B1lD2m5DvaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </h2>
         </div>
 
@@ -86,8 +97,8 @@
     </div>
 <!--footer------------------------------------->
     <footer>
-        <p>Jiaqi07</p>
-        <p>This is a personal website inspired by Going-To Internet and etc.</p>
+        <p style="color:#45A29E">Jiaqi07</p>
+        <p style="color:rgba(246,245,245,0.61)">This is a personal website made for educational purposes and for fun. Credit to raven for the music!</p>
     <!--social--------------------------------->
         <div class="social-icons">
             <a href="https://github.com/Jiaqi07"><i class="fab fa-github"></i></a>
@@ -106,5 +117,4 @@
         <a href="https://www.instagram.com/alanchen51/"><i class="fab fa-instagram"></i></a>
     </div>
 </body>
-
 </html>
