@@ -7,9 +7,10 @@ body{
 }
 
 .contacts{
+    height: auto;
     margin:0px;
     padding:0px;
-    background-image: url("stolenBackground1Lol.jpg");
+    background-image: url("alex-perez-ioJBsYQ-pPM-unsplash.jpg");
     background-size: contain;
 }
 
@@ -266,7 +267,7 @@ button:active{
     height:330px;
     background-color:#1F2833;
     border-radius:20px;
-    box-shadow:2px 2px 12px rgb(69, 162, 158);
+    box-shadow:2px 2px 12px rgb(220, 70, 169);
     display:flex;
     margin:-7% auto 20px auto;
     position:relative;
@@ -314,7 +315,7 @@ button:active{
     height:330px;
     background-color:#1F2833;
     border-radius:20px;
-    box-shadow:2px 2px 12px rgb(130, 30, 30);
+    box-shadow:2px 2px 12px rgb(220, 70, 169);
     display:flex;
     margin:-7% auto 20px auto;
     position:relative;
@@ -326,7 +327,8 @@ button:active{
 }
 .services{
     height:600px;
-    background-color:#ffffff;
+
+    /*background-size: ;*/
     padding:2% 10% 0px 10%;
 }
 .services-text p:nth-child(1){
@@ -346,7 +348,6 @@ button:active{
 .services-text p:nth-child(3){
     font-family:Open Sans, serif;
     color:#7e7d7d;
-
 }
 .services-text{
     width: 500px;
