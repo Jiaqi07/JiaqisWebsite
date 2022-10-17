@@ -14,6 +14,14 @@ body{
     background-size: contain;
 }
 
+.goal{
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background-image: url("kamran-abdullayev-LLS74TRAseM-unsplash.jpg");
+    background-size: contain;
+}
+
 /*Credit to B Coder - https://www.youtube.com/watch?v=nWXm7Y7Q_Pk&ab_channel=BCoder*/
 .snow,
 .snow:before,
