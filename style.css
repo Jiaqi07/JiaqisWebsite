@@ -6,12 +6,20 @@ body{
     padding:0px;
 }
 
+.AboutMe{
+    height: auto;
+    margin:0px;
+    padding:0px;
+    background-image: url("leaves.jpg");
+    background-size: 400px;
+}
+
 .contacts{
     height: auto;
     margin:0px;
     padding:0px;
     background-image: url("alex-perez-ioJBsYQ-pPM-unsplash.jpg");
-    background-size: contain;
+    background-size: 2000px;
 }
 
 .goal{
@@ -185,8 +193,14 @@ nav{
     box-shadow:2px 2px 12px rgb(69, 162, 158);
     padding:0px 5%;
 }
+.green{
+    box-shadow:2px 2px 12px rgb(82, 140, 78);
+}
 .red{
     box-shadow:2px 2px 12px rgb(130, 30, 30);
+}
+.purple{
+    box-shadow:2px 2px 12px rgb(89, 51, 190);
 }
 nav ul{
     display:flex;
@@ -275,7 +289,7 @@ button:active{
     height:330px;
     background-color:#1F2833;
     border-radius:20px;
-    box-shadow:2px 2px 12px rgb(220, 70, 169);
+    box-shadow:2px 2px 12px rgb(82, 140, 78);
     display:flex;
     margin:-7% auto 20px auto;
     position:relative;
@@ -342,20 +356,20 @@ button:active{
 .services-text p:nth-child(1){
     font-family:Open Sans, serif;
     font-weight:bold;
-    color:#3e3d3d;
+    color: #ffffff;
     font-size:30px;
     line-height:0px;
 }
 .services-text p:nth-child(2){
     font-family:Open Sans, serif;
     font-weight:bold;
-    color:#3e3d3d;
-    font-size:15px;
+    color: #799cd7;
+    font-size:20px;
     line-height:5px;
 }
 .services-text p:nth-child(3){
     font-family:Open Sans, serif;
-    color:#7e7d7d;
+    color: #36acec;
 }
 .services-text{
     width: 500px;
