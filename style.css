@@ -26,7 +26,7 @@ body{
     height: auto;
     margin:0px;
     padding:0px;
-    background-image: url("kamran-abdullayev-LLS74TRAseM-unsplash.jpg");
+    background-color: #0b0c10;
     background-size: contain;
 }
 
@@ -201,6 +201,9 @@ nav{
 }
 .purple{
     box-shadow:2px 2px 12px rgb(89, 51, 190);
+}
+.teel{
+    box-shadow:2px 2px 12px rgb(135, 250, 213);
 }
 nav ul{
     display:flex;
